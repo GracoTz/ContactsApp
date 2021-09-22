@@ -1,0 +1,156 @@
+/* General styles for all pages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	font-size: 15px;
+	font-family: cursive;
+	background: linear-gradient(to right, #32aafa 5%, #d40aca 90%);
+    background: -moz-linear-gradient(to right, #32aafa 5%, #d40aca 90%);
+}
+/* General styles for all pages */
+
+/* Form styles */
+.form {
+	height: 400px;
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	color: #000000;
+	border: 1px solid #c3c3c3;
+    background: #ffffff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	min-width: 288px;
+	max-width: 720px;
+}
+/* Form styles */
+
+/* Title styles */
+.form__title {
+	margin-top: 25px;
+	width: 100%;
+	text-align: center;
+}
+.form__title > h2 {
+	color: #333;
+	font-size: 1.7rem;
+}
+/* Title styles */
+
+/* Container styles */
+.container {
+	width: 80%;
+	height: 200px;
+	border-radius: 10px;
+    margin: auto;
+    margin-top: 46px;
+}
+.container__photo {
+    position: relative;
+    top: -20px;
+    width: 80%;
+    height: 20px;
+    margin: auto;
+}
+.button-photo {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to bottom right, #3f003fc4, #22a);
+    background: -moz-linear-gradient(to bottom right, #3f003fc4, #22a);
+    cursor: pointer;
+    padding: 7px 0;
+    border-radius: 20px;
+}
+.button-photo:hover {
+    background: linear-gradient(to top left,rgb(122, 24, 175) 30%,rgb(6, 133, 172) 100% );
+    background: -moz-linear-gradient(to top left,rgb(122, 24, 175) 30%,rgb(6, 133, 172) 100% );
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button-photo-file {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    background: linear-gradient(to bottom right, #3f003fc4, #22a);
+    background: -moz-linear-gradient(to bottom right, #3f003fc4, #22a);
+    cursor: pointer;
+    padding: 7px 0;
+    border-radius: 20px;
+    border: 1px solid #0f0;
+}
+.btn-del-photo {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn-del-photo:hover {
+    background-color: #df2525;
+}
+.container__field {
+    display: block;
+    position: relative;
+    margin: 15px auto;
+    padding: 6px 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: inherit;
+    border-bottom: 3px solid #c61dd5;
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+	font-family: cursive;
+    transition: 0.4s;
+}
+.container__field:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container__field:focus {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container__btn-register {
+    position: relative;
+    top: 17px;
+    text-align: center;
+}
+.btn-register {
+	padding: 10px 10%;
+    width: 80%;
+	font-size: 1rem;
+    margin: auto;
+    text-decoration: none;
+    background: linear-gradient(to bottom right,rgb(98, 6, 141) 50%, rgb(207, 11, 224) 90%);
+    background: -moz-linear-gradient(to bottom right,rgb(98, 6, 141) 50%, rgb(207, 11, 224) 90%);
+    border: none;
+    border-radius: 9px;
+	color: white;
+    cursor: pointer;
+}
+.btn-register:hover {
+    background: linear-gradient(to top left,rgb(122, 24, 175) 30%,rgb(6, 133, 172) 100% );
+    background: -moz-linear-gradient(to top left,rgb(122, 24, 175) 30%,rgb(6, 133, 172) 100% );
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.container__login-link {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    font-size: .9rem;
+}
+.container__login-link > a {
+    color: #060ae4;
+}
+/* Container styles */

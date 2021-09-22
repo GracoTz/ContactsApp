@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	font-size: 15px;
+	font-family: cursive;
+}
+.bg-image {
+	background: url(http://localhost/public/images/img_background.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	height: 300px;
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	color: white;
+	min-width: 288px;
+	max-width: 720px;
+}
+.container > h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+
+}
+.container > h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: .95;
+}
+.btn-start {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    text-align: center;
+    background: linear-gradient(to bottom right,rgb(98, 6, 141) 50%, rgb(207, 11, 224) 90%);
+    background: -moz-linear-gradient(to bottom right,rgb(98, 6, 141) 50%, rgb(207, 11, 224) 90%);
+    border: .5px solid rgb(120, 10, 148);
+    transition: all .2s;
+}
+.btn-start:hover {
+    background: linear-gradient(to top left,rgb(122, 24, 175) 30%,rgb(6, 133, 172) 100% );
+    background: -moz-linear-gradient(to top left,rgb(122, 24, 175) 30%,rgb(6, 133, 172) 100% );
+    border-top: 1px solid rgb(6, 171, 221);
+    border-left: 1px solid rgb(6, 171, 221);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #0009;
+    width: 100%;
+    color: #fff;
+    border: 2px solid #000;
+    text-align: center;
+}
+footer > h5 {
+    font-size: 1rem;
+}
+footer > p:nth-child(2) {
+    font-size: .89rem
+}
+footer > p:nth-child(3) {
+    font-size: .7rem
+}
+footer > p:nth-child(4) {
+    font-size: .6rem
+}
